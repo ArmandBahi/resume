@@ -9,6 +9,7 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { CapabilitiesComponent } from './capabilities/capabilities.component';
+import { ExperienceAndEducationComponent } from './experience-and-education/experience-and-education.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
@@ -23,6 +24,10 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
       {
         path: 'capabilities',
         component: CapabilitiesComponent
+      },
+      {
+        path: 'experienceAndEducation',
+        component: ExperienceAndEducationComponent
       },
       // Home Page
       {
@@ -41,6 +46,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     AppComponent,
     AboutMeComponent,
     CapabilitiesComponent,
+    ExperienceAndEducationComponent,
     PageNotFoundComponent
   ],
   bootstrap: [

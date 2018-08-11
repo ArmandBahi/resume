@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { CapabilitiesComponent } from './capabilities/capabilities.component';
 import { ExperienceAndEducationComponent } from './experience-and-education/experience-and-education.component';
+import { PersonalDetailsComponent } from './personal-details/personal-details.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
@@ -29,6 +30,10 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
         path: 'experienceAndEducation',
         component: ExperienceAndEducationComponent
       },
+      {
+        path: 'personalDetails',
+        component: PersonalDetailsComponent
+      },
       // Home Page
       {
         path: '',
@@ -47,6 +52,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     AboutMeComponent,
     CapabilitiesComponent,
     ExperienceAndEducationComponent,
+    PersonalDetailsComponent,
     PageNotFoundComponent
   ],
   bootstrap: [

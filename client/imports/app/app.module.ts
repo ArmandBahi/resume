@@ -8,10 +8,10 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { WelcomeModalComponent } from './welcome-modal/welcome-modal.component';
-import { AboutMeComponent } from './about-me/about-me.component';
-import { CapabilitiesComponent } from './capabilities/capabilities.component';
-import { ExperienceAndEducationComponent } from './experience-and-education/experience-and-education.component';
-import { PersonalDetailsComponent } from './personal-details/personal-details.component';
+import { AboutMeComponent } from './resume-parts/about-me/about-me.component';
+import { CapabilitiesComponent } from './resume-parts/capabilities/capabilities.component';
+import { ExperienceAndEducationComponent } from './resume-parts/experience-and-education/experience-and-education.component';
+import { PersonalDetailsComponent } from './resume-parts/personal-details/personal-details.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({

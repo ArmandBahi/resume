@@ -7,8 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { TodoAddComponent } from './todo-add/todo-add.component';
-import { TodoListComponent } from './todo-list/todo-list.component';
+import { AboutMeComponent } from './about-me/about-me.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
@@ -17,17 +16,13 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     FormsModule,
     RouterModule.forRoot([
       {
-        path: 'todoList',
-        component: TodoListComponent
-      },
-      {
-        path: 'todoAdd',
-        component: TodoAddComponent
+        path: 'aboutMe',
+        component: AboutMeComponent
       },
       // Home Page
       {
         path: '',
-        redirectTo: '/todoList',
+        redirectTo: '/aboutMe',
         pathMatch: 'full'
       },
       // 404 Page
@@ -39,8 +34,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
   ],
   declarations: [
     AppComponent,
-    TodoAddComponent,
-    TodoListComponent,
+    AboutMeComponent,
     PageNotFoundComponent
   ],
   bootstrap: [

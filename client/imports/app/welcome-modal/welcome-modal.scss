@@ -1,0 +1,52 @@
+
+/**
+ * Welcome modal containter
+ */
+.welcome-modal, .welcome-modal>.modal-footer {
+    background-color: #000;
+    color: white;
+    font-family: monospace, monospace;
+    text-align: center;
+    padding: 3% 15% 3% 15%;
+}
+
+/**
+ * Welcome modal elements
+ */
+.welcome-modal>div>.welcome-modal-title {
+  animation: 3s fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  animation-delay: 0s;
+}
+.welcome-modal>div>.welcome-modal-subtitle {
+  animation: 3s fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  animation-delay: 1s;
+}
+.welcome-modal>div>.welcome-modal-text {
+  animation: 3s fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  animation-delay: 3s;
+}
+.welcome-modal>div>.welcome-modal-button {
+  animation: 3s fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  animation-delay: 4s;
+}
+
+/**
+ * Used to display the elem during an animation
+ */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}

@@ -1,12 +1,23 @@
 
 
-<ul>
-  <li><a routerLink="/aboutMe" class="navBtn">About me</a></li>
-  <li><a routerLink="/capabilities" class="navBtn">Capabilities</a></li>
-  <li><a routerLink="/experienceAndEducation" class="navBtn">Experience and education</a></li>
-  <li><a routerLink="/personalDetails" class="navBtn">Personal details</a></li>
-</ul>
 
-<welcome-modal></welcome-modal>
-
-<router-outlet></router-outlet>
+<!-- <welcome-modal></welcome-modal> -->
+<div class="resume-navbar">
+    <navbar></navbar>
+</div>
+<div class="row resume-row-container">
+    <div class="col s6 full-height" style="background-color: gray;">
+        <ul>
+            <li><a routerLink="/aboutMe" class="navBtn">About me</a></li>
+            <li><a routerLink="/capabilities" class="navBtn">Capabilities</a></li>
+            <li><a routerLink="/experienceAndEducation" class="navBtn">Experience and education</a></li>
+            <li><a routerLink="/personalDetails" class="navBtn">Personal details</a></li>
+        </ul>
+    </div>
+    <div class="col s6 full-height">
+        <router-outlet></router-outlet>
+    </div>
+</div>
+<div class="resume-footer">
+    <footer></footer>
+</div>

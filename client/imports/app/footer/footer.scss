@@ -1,0 +1,39 @@
+
+/**
+ * Logos containter
+ */
+.footer-logos-container{
+    padding: 4px 0px 0px 0px;
+}
+
+/**
+ * White circle logos
+ */
+.footer-rounded-logo{
+    height: 33px;
+    width: 33px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0px 5px 0px 5px;
+    padding: 1px 0px 0px 0px;
+    overflow: hidden;
+}
+.footer-rounded-logo>a{
+    font-size: 23px;
+    color: #333;
+}
+
+/**
+ * Github logo
+ */
+.footer-rounded-logo.github-logo{
+    background-color: #333;
+    margin-top: -4px;
+    height: 40px;
+}
+.footer-rounded-logo.github-logo>a{
+    font-size: 38px;
+    color: #fff;
+    line-height: 0;
+}

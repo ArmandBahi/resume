@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 import { WelcomeModalComponent } from './welcome-modal/welcome-modal.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { SummaryMapComponent } from './summary-map/summary-map.component';
 import { AboutMeComponent } from './resume-parts/about-me/about-me.component';
 import { CapabilitiesComponent } from './resume-parts/capabilities/capabilities.component';
 import { ExperienceAndEducationComponent } from './resume-parts/experience-and-education/experience-and-education.component';
@@ -55,6 +56,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     WelcomeModalComponent,
     FooterComponent,
     NavbarComponent,
+    SummaryMapComponent,
     AboutMeComponent,
     CapabilitiesComponent,
     ExperienceAndEducationComponent,

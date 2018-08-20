@@ -69,14 +69,28 @@ export class SummaryMapComponent implements OnInit {
                 'source-layer': 'building',
                 'filter': ['==', 'extrude', 'true'],
                 'type': 'fill-extrusion',
-                'minzoom': 15,
+                'minzoom': 10,
                 'paint': {'fill-extrusion-color': '#555555', 'fill-extrusion-height':
                 {
                     'type': 'identity','property': 'height'},
                     'fill-extrusion-base': {'type': 'identity','property': 'min_height'},
-                    'fill-extrusion-opacity': 0.8
+                    'fill-extrusion-opacity': 1
                 }
             });
         });
+
+        /*********************************
+        ------- Outils navigation --------
+        *********************************/
+
+        // Ajout boutons navigation a la fin du script
+        map.addControl(new mapboxgl.NavigationControl(), 'top-left');
+
+        // Ajout Echelle cartographique a la fin du script
+        map.addControl(new mapboxgl.ScaleControl({
+            maxWidth: 120,
+            unit: 'metric'})
+        );
+
     }
 }

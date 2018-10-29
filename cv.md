@@ -29,6 +29,8 @@
 	- vMap
 	- Framework Vitis
 - Sur site
-	- vMap avancée (CCRVV)
+	- vMap avancée
 - Coférences
-	- Bugbounty au FME World Tour
+	- Bugbounty au FME World Tour 2018 (Paris)
+	- vMap au FME World Tour 2017 (Lyon)
+	- vMap un nouveau web-sig Foss4G 2016 (Paris)
